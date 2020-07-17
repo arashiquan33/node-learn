@@ -1,0 +1,14 @@
+{
+  "name": "learn-bin",
+  "version": "1.0.0",
+  "description": "learn bin",
+  "main": "index.js",
+  "bin": {
+    "learnBin": "./bin/learn-bin.js"
+  },
+  "scripts": {
+    "test": "learnBin --port 80"
+  },
+  "author": "quantianchao",
+  "license": "ISC"
+}

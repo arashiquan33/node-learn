@@ -1,0 +1,22 @@
+{
+  "name": "learn-bin",
+  "version": "1.0.0",
+  "description": "learn bin",
+  "main": "index.js",
+  "bin": {
+    "learnBin": "./bin/learn-bin.js"
+  },
+  "config": {
+    "port": 8080,
+    "ip": "www.baidu.com"
+  },
+  "scripts": {
+    "test:windows": "set aa=1 && set npm_config_also=1 && set npm_package_config_dns=172.13.13.13 && learnBin",
+    "test:linux": "export aa=1 && export npm_config_also=1 && export npm_package_config_dns=172.13.13.13 && learnBin "
+  },
+  "author": "quantianchao",
+  "license": "ISC",
+  "dependencies": {
+    "client-app": "git+http://172.21.55.10/holliebr2.0/client-app.git"
+  }
+}
